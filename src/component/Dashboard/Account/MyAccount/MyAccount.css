@@ -1,0 +1,402 @@
+/* .u-save-btn-0 {
+  color: #fff;
+  background-color: var(--primary-color);
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90px;
+} */
+.u-save-btn-1 {
+  color: #fff;
+  background-color: #dc143c;
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90px;
+}
+.change-pass-btn-0 {
+  color: #fff;
+  background-color: #dc143c;
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  margin-top: 30px;
+}
+.update-btn-modal {
+  color: #fff;
+  background-color: #dc143c;
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.img-upload-btn {
+  position: absolute;
+  top: -15px;
+  right: -13px;
+}
+/* .save-button-0 {
+  position: absolute;
+  width: 100%;
+} */
+
+.img-edit-btn {
+  /* border-radius: 50%; */
+  /* border: 2px solid var(--primary-color); */
+  padding: 5px;
+  font-size: 30px !important;
+  color: #ffff;
+  background-color: var(--primary-color);
+  cursor: pointer;
+  border-radius: 10px;
+}
+.icon-color-00 {
+  color: #dc143c;
+  margin-right: 10px;
+  /* background-color: #dc143c; */
+}
+.account {
+  margin: 0px 40px;
+}
+/* .account-information tr,
+td {
+  background-color: white;
+  color: black;
+}
+
+.account-information td {
+  text-align: left !important;
+  border: none !important;
+  padding: 20px 40px 0px 0px;
+  font-weight: 500;
+  font-size: 18px !important;
+} */
+.table-t {
+  font-weight: 500;
+}
+.account-information table {
+  border-collapse: collapse;
+  /* width: 100%; */
+}
+.edit-btn {
+  background-color: var(--gray-text-color) !important;
+  color: white !important;
+  text-transform: capitalize !important;
+  padding: 5px 20px !important;
+}
+.update-btn {
+  background-color: var(--gray-text-color) !important;
+  color: white !important;
+  text-transform: capitalize !important;
+  padding: 5px 20px !important;
+  margin-left: 73% !important;
+}
+.custom-file-label {
+  background-color: #d1e9ff;
+  padding: 4px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+/* modal / popup css start */
+.update-profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.upload-btn {
+  color: #dc143c !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+}
+.u-input {
+  width: 100%;
+  background-color: #d1e9ff;
+  border-radius: 5px;
+  padding: 9px;
+  font-size: 14px;
+  border: 0px solid;
+  color: var(--primary-color);
+}
+.u-input-logo {
+  width: 100%;
+  background-color: #d1e9ff;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  border: 0px solid;
+  color: var(--primary-color);
+}
+
+.u-input::placeholder {
+  color: var(--primary-color);
+  opacity: 1;
+}
+
+/* password modal  */
+/* .modal-00{
+  position: relative;
+} */
+.modalStylePass {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom-modal-pass {
+  width: 300px;
+}
+.update-btn-modal-pass {
+  color: #fff;
+  background-color: #dc143c;
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+}
+.u-pass-input {
+  width: 250px;
+  background-color: #d1e9ff;
+  border-radius: 5px;
+  padding: 9px;
+  font-size: 14px;
+  border: 0px solid;
+  color: var(--primary-color);
+}
+
+/*  new style for account */
+
+.page-heading h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: #dc143c;
+  padding: 20px 0px;
+}
+
+.profileImg img {
+  border: 2px solid var(--primary-color);
+  border-radius: 18px;
+  width: 100%;
+}
+.profile-details h2 {
+  color: #222222;
+  font-size: 30px;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.profile-details span {
+  color: var(--primary-color);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.profile-details p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #222222;
+  padding: 8px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-update-btn {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: relative;
+  top: 10px;
+}
+
+.profile-update-btn button {
+  height: 44px;
+  padding: 0px 16px;
+  background: #dc143c;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* -------------------------------- new style here  */
+
+.account-heading h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 60px;
+  color: #222222;
+}
+
+.account-heading p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--primary-color);
+}
+
+.account-heading p span {
+  position: relative;
+  left: 35px;
+}
+
+.account-details h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  color: var(--primary-color);
+}
+
+.account-company-img img {
+  width: 160px;
+  height: 62px;
+}
+
+.account-details p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 35px;
+  color: #222222;
+}
+
+.account-details-profile img {
+  width: 244px;
+  height: 270px;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.account-update-btn button {
+  font-family: "Poppins";
+  /* width: 20%; */
+  padding: 8px 20px;
+  background: #dc143c;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15spx;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.account-update-img img {
+  width: 159px;
+  height: 177px;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+/* new style for my account page start here */
+.my-account-page h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #272323;
+}
+.my-account-page-img {
+  width: 200px;
+  position: relative;
+}
+/* .image-box-00 {
+  width: 200px;
+  height: 80px;
+}
+
+.image-box-00 img {
+  width: 100%;
+  height: 100%;
+} */
+
+/* .company-logo5 img {
+  width: 180px;
+} */
+
+/* new style for my account page end here */
+
+@media all and (max-width: 428px) and (min-width: 320px) {
+  .profileImg {
+    text-align: center;
+  }
+  .profileImg img {
+    width: 70%;
+  }
+  .profile-update-btn button {
+    height: 45px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .profile-update-btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+  }
+
+  .account-details-profile img {
+    width: 100%;
+    height: auto;
+    border: 3px solid var(--primary-color);
+    border-radius: 18px;
+  }
+}
+
+@media all and (max-width: 768px) and (min-width: 429px) {
+  .account-details-parent {
+    margin-top: 60px;
+  }
+}
+/* todo: MyStaff Page CSS */
+.staffPhone .react-tel-input .form-control {
+  background-color: #d1e9ff;
+  width: 100%;
+  border: none;
+}
+.staffPhone .react-tel-input .flag-dropdown {
+  background-color: #d1e9ff;
+  border: none;
+}
+/* todo: myaccount page css */
+.customPhoneInput.react-tel-input .form-control {
+  background-color: #d1e9ff;
+  width: 100%;
+  border: none;
+}
+.customPhoneInput.react-tel-input .flag-dropdown {
+  background-color: #d1e9ff;
+  border: none;
+}

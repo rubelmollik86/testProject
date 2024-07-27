@@ -1,0 +1,96 @@
+.carousel-parent {
+  overflow: hidden;
+}
+.carousel-header {
+  font-family: "Poppins";
+  font-style: normal;
+  display: block;
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 17px;
+  padding: 50px 0px;
+}
+
+
+.card-carousel-img img {
+  width: 280px;
+  height: 100px;
+}
+.card-slider-customize {
+  padding: 0px 50px !important;
+}
+
+/* mobile device */
+@media only screen and (max-width: 320px) {
+  .card-slider-customize {
+    padding: 0px !important;
+  }
+}
+
+/* 
+@media only screen and (max-width: 375px) {
+    .slick-prev:before {
+        content: '←';
+        color: #fff !important;
+
+    }
+
+    .slick-next:before {
+        content: '→';
+        color: #fff !important;
+
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .carousel-header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .card-carousel-img img {
+        width: auto;
+    }
+
+    .slick-prev:before {
+        content: '←';
+        color: #fff !important;
+
+    }
+    .slick-next:before {
+        content: '→';
+        color: #fff !important;
+
+    }
+} */
+
+@media only screen and (min-width: 767px) {
+  .slider-customize {
+    margin: 0px 80px;
+  }
+  .service-parent {
+    margin: 60px 0px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .card-carousel-img img {
+    width: 300px;
+  }
+  .slider-customize {
+    margin: 0px 105px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .card-carousel-img img {
+    width: 250px;
+    height: 75px !important;
+  }
+  .slider-customize {
+    margin: 0px 0px;
+  }
+}

@@ -1,0 +1,55 @@
+
+.q-box .queues-td td {
+  border: 1px solid var(--primary-color) ;
+  border-collapse: collapse ;
+  padding: 10px 5px;
+}
+.q-box .deposite-table td,
+.q-box .deposite-table th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
+.queues-input-search {
+  position: relative;
+}
+
+.queues-input-search input {
+  width: 100%;
+  border: 2px solid var(--primary-color);
+  padding: 0px 15px;
+  color: var(--primary-color);
+  font-size: 15px;
+  height: 38px;
+}
+
+#search-icon5 {
+  position: absolute;
+  top: 23px;
+  right: 10px;
+}
+
+.queues-filter select {
+  border: 2px solid var(--primary-color);
+  color: #e02c50;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 15px;
+  height: 38px;
+}
+
+.queue-view {
+  text-align: right;
+}
+
+.queue-view select {
+  width: 30% !important;
+  border: 2px solid var(--primary-color);
+  color: #e02c50;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 15px;
+  height: 38px;
+}

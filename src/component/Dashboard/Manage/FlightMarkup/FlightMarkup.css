@@ -1,0 +1,110 @@
+.flight-markup .button-color {
+  color: white !important;
+}
+.flight-markup .button-color1 {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.inputbase {
+  border-bottom: 2px solid black;
+  padding: 5px 0px;
+}
+.flight-markup label,
+h3 {
+  color: var(--primary-color);
+}
+.select {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 200px !important;
+  padding: 10px 0px;
+}
+.phone-sizess .select {
+  padding: 13px 0px;
+  width: 190px !important;
+}
+.flight-markup label {
+  font-weight: bold;
+}
+.flight-markup input {
+  font-size: 12px;
+}
+@media (min-width: 1025px) {
+  .phone-sizes input {
+    width: 240px;
+  }
+  .date-style input[type="date"] {
+    width: 200px;
+  }
+  .travel-validity input {
+    width: 200px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .phone-sizes input {
+    width: 170px !important;
+  }
+  .date-style input[type="date"] {
+    width: 140px;
+  }
+  .phone-sizes input {
+    font-size: 12px;
+    width: 170px !important;
+  }
+  .travel-validity input {
+    font-size: 12px;
+  }
+  label {
+    font-size: 14px;
+  }
+  .travel-validity input[type="text"] {
+    width: 140px !important;
+  }
+  .select {
+    padding: 10px 0px;
+    width: 170px !important;
+  }
+  .travel-validity .select {
+    width: 140px !important;
+  }
+}
+@media (min-width: 429px) and (max-width: 768px) {
+  .travel-validity input[type='date'] {
+    width: 190px !important;
+  }
+  .flight-markup input[type='text'],
+  [type='number'] {
+    width: 200px !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 428px) {}
+/* @media (min-width: 425px) and (max-width: 768px) {
+  .travel-validity input[type="date"] {
+    width: 190px !important;
+  }
+  input[type="text"],
+  [type="number"] {
+    width: 200px !important;
+  }
+} */
+@media (min-width: 320px) and (max-width: 424px) {
+  .phone-sizes input {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: 290px !important;
+  }
+  .phone-size input {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: 290px !important;
+  }
+  .select {
+    width: 290px !important;
+  }
+  .travel-validity input[type="date"] {
+    width: 290px !important;
+  }
+}

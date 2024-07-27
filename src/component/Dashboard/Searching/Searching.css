@@ -1,0 +1,9 @@
+.text-color {
+  font-weight: Bold;
+  color: var(--primary-color);
+}
+.text-image-alignement {
+  display: flex;
+  align-content: center;
+  font-weight: 800;
+}

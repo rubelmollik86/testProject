@@ -1,0 +1,37 @@
+.payment-header h2 {
+  color: #fff;
+  font-size: 55px;
+  font-family: "poppins";
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.bank-info {
+  border: 2px solid var(--primary-color);
+  background: rgba(124, 147, 169, 0.43);
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.bank-info h4 {
+  color: #fff;
+  font-size: 22px;
+  color: var(--primary-color);
+  font-family: "Poppins";
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.bank-info p {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 25px;
+}
+
+@media all and (max-width: 428px) and (min-width: 320px) {
+  .payment-header h2 {
+    font-size: 30px;
+  }
+}

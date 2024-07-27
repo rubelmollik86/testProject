@@ -1,0 +1,412 @@
+/* .css-919eu4 {
+  position: fixed;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  inset: 0px;
+  -webkit-tap-highlight-color: transparent;
+  z-index: -1;
+} */
+
+/* .css-hy46hj {
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  width: 670px;
+  height: 365px;
+  box-shadow: rgb(99 99 99 / 10%) 0px 2px 4px 0px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: none !important;
+} */
+
+.search-parent-sty {
+  padding: 30px 0px;
+}
+
+.trav-Search input {
+  width: 100%;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  height: 40px;
+  padding: 0px 8px;
+}
+
+.trav-Search {
+  position: relative;
+}
+
+#travel-search-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.add-trav {
+  position: relative;
+}
+.add-trav span {
+  position: absolute;
+  left: 10px;
+}
+
+.add-trav a {
+  text-decoration: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  color: var(--primary-color);
+  padding: 8px 33px;
+}
+
+.trv-sellect-parent {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.trv-sellect {
+  width: 50%;
+  position: relative;
+}
+
+.trv-sellect select {
+  width: 100% !important;
+  color: #e02c50;
+  font-family: "Poppins";
+  font-weight: 400;
+  position: absolute;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.traveler-input-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* #travel-search-icon {
+  position: relative;
+  left: -34px;
+  top: 8px;
+} */
+
+.travelladdButton a {
+  position: relative;
+  top: -10px;
+}
+
+#addTraveller {
+  text-decoration: none;
+  color: #e02c50;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 7px 10px;
+}
+.traveller-modal-details h4 {
+  color: #e02c50;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+.traveller-modal-details p {
+  color: #000000;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.traveller-modal-details span {
+  color: var(--primary-color);
+  padding-left: 5px;
+}
+
+.traveller-details-card {
+  display: none;
+}
+
+/* style for search section */
+
+.add-tra-link {
+  border: 2px solid var(--primary-color);
+  padding: 0px 10px;
+  border-radius: 7px;
+  position: relative;
+  cursor: pointer;
+  height: 38px;
+}
+
+/* .add-tra-link a {
+  text-decoration: none;
+  font-size: 13px;
+  color: var(--primary-color);
+  font-family: "Poppins";
+  font-weight: 400;
+  padding: 0px 24px;
+  cursor: pointer;
+} */
+
+@media all and (max-width: 428px) and (min-width: 320px) {
+  .trav-Search input {
+    width: 94%;
+  }
+  #travel-search-icon {
+    position: absolute;
+    top: 10px;
+    right: 32px;
+  }
+
+  .traveller-refId {
+    display: flex;
+    justify-content: end;
+  }
+
+  .traveller-refId h4 {
+    background-color: #154572;
+    padding: 10px 16px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 0px 0px 0px 8px;
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 300;
+  }
+/* 
+  .traveller-details-table {
+    display: none;
+  } */
+  .traveller-details-card {
+    display: block;
+    padding-right: 20px;
+  }
+
+  .taraveller-data-table-child {
+    display: block;
+  }
+
+  .traveler-input-search {
+    display: block;
+    margin-top: 90px;
+  }
+  .traveler-input-search input {
+    width: 94%;
+  }
+  .travelladdButton {
+    margin-top: 20px;
+  }
+
+  #addTraveller {
+    font-size: 13px;
+    padding: 8px 26px;
+  }
+
+  .data-table-child-content {
+    text-align: right;
+    position: relative;
+    top: -37px;
+    left: -20px;
+  }
+  .data-table-child-content select {
+    width: 45% !important;
+  }
+
+  #cardWidth {
+    min-width: 200px;
+  }
+
+  /* .travellerDetailsParent {
+    padding: 0px !important;
+    padding-left: 25px !important;
+  } */
+  .traveller-details-card-content {
+    padding: 15px 15px;
+    position: relative;
+  }
+  .card-content-id h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+  }
+  .card-content-id span {
+    color: var(--primary-color);
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .traveller-card-details {
+    padding: 10px 0px;
+  }
+  .traveller-card-details h4 {
+    color: #dc143c;
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 14px;
+  }
+
+  .traveller-card-details h5 {
+    color: #000000;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .traveller-card-details span {
+    color: var(--primary-color);
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  /* .traveller-client-staff {
+    display: flex;
+    justify-content: space-between;
+  } */
+}
+
+.traveler-search-box {
+  padding: 12px 0px;
+}
+
+@media all and (max-width: 340px) and (min-width: 315px) {
+  #travel-search-icon {
+    position: relative;
+    left: 235px;
+    top: -30px;
+  }
+}
+
+@media all and (max-width: 375px) and (min-width: 341px) {
+  #travel-search-icon {
+    position: relative;
+    left: 290px;
+    top: -30px;
+  }
+}
+
+@media all and (max-width: 768px) and (min-width: 429px) {
+  /* .travellerDetailsParent {
+    margin-top: 50px;
+  } */
+  .add-tra-link {
+    width: 94%;
+  }
+
+  .traveller-refId {
+    display: flex;
+    justify-content: end;
+  }
+  .traveller-refId h4 {
+    background-color: #154572;
+    padding: 10px 16px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 0px 0px 0px 8px;
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 300;
+  }
+
+  /* .traveller-details-table {
+    display: none;
+  } */
+  .traveller-details-card {
+    display: block;
+    padding-right: 20px;
+  }
+  .data-table-child-content {
+    display: none;
+  }
+
+  .traveler-input-search input {
+    width: 200px;
+  }
+
+  #addTraveller {
+    font-size: 13px;
+    padding: 8px 6px;
+  }
+  /* .travellerDetailsParent {
+    padding: 0px !important;
+    padding-left: 25px !important;
+  } */
+  .traveller-details-card-content {
+    padding: 15px 15px;
+    position: relative;
+  }
+  .card-content-id h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+  }
+  .card-content-id span {
+    color: var(--primary-color);
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .traveller-card-details {
+    padding: 10px 0px;
+  }
+  .traveller-card-details h4 {
+    color: #dc143c;
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 14px;
+  }
+
+  .traveller-card-details h5 {
+    color: #000000;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .traveller-card-details span {
+    color: var(--primary-color);
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .traveller-client-staff {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+@media all and (max-width: 1921px) and (min-width: 1919px) {
+  .add-tra-link {
+    padding: 8px 10px;
+  }
+  #search-icon5 {
+    position: absolute;
+    bottom: 1px;
+    right: 12px;
+  }
+}

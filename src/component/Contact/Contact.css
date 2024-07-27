@@ -1,0 +1,213 @@
+.contact-parent {
+  display: flex;
+}
+
+.contact-left {
+  background: linear-gradient(121.52deg, #dc143c 0%, #7c0019 77.49%);
+  padding: 83px 23px;
+  padding-bottom: 55px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.contact-left h3 {
+  color: #fff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 0.05em;
+}
+
+.contact-info-parent {
+  padding: 20px 0px;
+}
+
+.contact-info {
+  padding: 8px 0px;
+}
+
+.img-content {
+  display: flex;
+  align-items: center;
+}
+.contact-info span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 0px 7px;
+  color: #c4c4c4;
+}
+
+.contact-info p {
+  color: #fff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 6px 0px;
+  /* width: fit-content; */
+}
+
+
+
+.social-contact {
+  padding-top: 36px;
+  position: relative;
+}
+
+.contact-right {
+  padding: 35px 30px;
+}
+
+.contact-right h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.contact-right hr {
+  border: 1px solid var(--primary-color);
+  margin-top: 5px;
+}
+
+.contact-input {
+  padding: 10px 0px;
+}
+
+.contact-input label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #000000;
+}
+
+.contact-input input {
+  width: 100%;
+  border: 1px solid #154572;
+  padding: 8px 10px;
+}
+.contact-input textarea {
+  width: 100%;
+  border: 1px solid #154572;
+  padding: 10px 10px;
+}
+
+.contact-btn button {
+  background: linear-gradient(121.52deg, #5d7f9e 0%, var(--primary-color) 77.49%);
+  width: 100%;
+  border: none;
+  color: #fff;
+  padding: 10px 0px;
+}
+.aboutus-body {
+  background: url(../../image/About/bgflight.png) no-repeat left,
+    linear-gradient(121.52deg, #5d7f9e 0%, var(--primary-color) 77.49%);
+}
+.about-1 {
+  color: #ffffff !important;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 0px 15px !important;
+  text-decoration: none;
+}
+.contact-btn {
+  color: #ffffff !important;
+  font-family: "Poppins" !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  text-transform: capitalize !important;
+  padding: 0px 0px !important;
+  margin-top: -6 !important;
+}
+.contact-bottom-tab{
+  background: linear-gradient(121.52deg, #dc143c 0%, #7c0019 77.49%);
+  padding: 20px;
+  border-radius: 0px 0px 5px 5px;
+}
+.contact-bottom-tab h3{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+}
+.aboutModalStyle{
+  max-height: 100vh;
+  /* overflow-y: scroll; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 24;
+ 
+  background-color: #fff;
+  border-radius: 5px;
+}
+@media all and (min-width:1025px ) {
+  .aboutModalStyle{
+    width: 850px;
+  }
+  .fortabwithphone{
+    display: none;
+  }
+}
+@media all and (min-width:769px ) and (max-width: 1024px){
+  .aboutModalStyle{
+    width: 850px;
+  }
+  .fortabwithphone{
+    display: none;
+  }
+}
+@media all and (min-width:429px ) and (max-width: 768px){
+  .for-desk{
+    display: none !important;
+  }
+  .aboutModalStyle{
+    width: 80%;
+  }
+  .contact-right{
+    padding:20px;
+  }
+  .contact-input label{
+    font-size: 12px;
+  }
+  .social-contact {
+    padding: 0;
+  }
+}
+@media all and (min-width: 320px) and (max-width: 428px){
+  .for-desk{
+    display: none !important;
+  }
+  .aboutModalStyle{
+    width: 90%;
+  }
+  .contact-right{
+    padding:20px;
+  }
+  .contact-input label{
+    font-size: 12px;
+  }
+  .contact-input input::placeholder{
+    font-size: 10px ;
+  }
+  .contact-input input{
+    padding:4px 10px;
+  }
+  .contact-right h3{
+    font-size: 15px;
+  }
+  .social-contact {
+    padding: 0;
+  }
+  .contact-info-parent{
+    padding: 10px 0px 0px 0px;
+  }
+}

@@ -1,0 +1,46 @@
+.privacy-header h2 {
+  color: #fff;
+  font-size: 55px;
+  font-family: "poppins";
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.privacy1 p {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-family: "poppins";
+  font-weight: 300;
+  text-align: justify;
+  padding: 7px 0px;
+}
+
+.privacy1 {
+  padding: 10px 0px;
+}
+
+.privacy1 a {
+  color: var(--tab-text);
+  padding: 0px 2px;
+  font-family: "poppins";
+  font-weight: 500;
+}
+
+.privacy1 h5 {
+  color: var(--primary-color);
+  font-size: 15px;
+  font-family: "poppins";
+  font-weight: 500;
+  padding: 10px 0px;
+}
+
+.privacy1 p span {
+  font-family: "poppins";
+  font-weight: 400;
+}
+
+@media all and (max-width: 428px) and (min-width: 320px) {
+  .privacy-header h2 {
+    font-size: 30px;
+  }
+}

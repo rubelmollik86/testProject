@@ -1,0 +1,166 @@
+.passenger-width {
+  width: 90% !important;
+}
+
+.dashbord-content h3 {
+  color: var(--primary-color);
+  font-size: 18px;
+  opacity: 0.85;
+  text-decoration: underline;
+  display: inline;
+}
+
+.dashbord-content span {
+  font-size: 15px;
+  color: var(--primary-color);
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.input-content h5 {
+  color: var(--primary-color);
+  font-size: 17px;
+  text-decoration: underline;
+  opacity: 0.95;
+}
+
+.input-content label {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.input-content select {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 60% !important;
+  margin-top: 25px;
+  height: 35px;
+}
+
+.input-content input {
+  border: none;
+  margin-top: 15px;
+  width: 60% !important;
+  border-bottom: 1px solid black;
+  margin-top: 25px;
+  height: 30px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+.checkBox-parent {
+  margin: 30px 0px;
+}
+
+.checkBox input {
+  width: 15px !important;
+  display: inline !important;
+  margin-right: 10px;
+  height: 30px;
+}
+
+.checkBox label {
+  font-size: 14px;
+}
+
+.book-btn {
+  margin-top: 15px;
+}
+
+.book-btn button {
+  background-color: var(--primary-color);
+}
+
+.book-btn button:hover {
+  background-color: var(--primary-color);
+}
+
+.passenger-width .PhoneInputCountry {
+  /* margin-top: 25px; */
+  padding-top: 27px;
+}
+
+.passenger-width .PhoneInput {
+  display: flex;
+  align-items: center;
+  width: 64%;
+}
+.input-border-color input[type="text"] {
+  border-bottom: 2px solid #0b0b0b;
+}
+@media only screen and (max-width: 428px) {
+  .passenger-width .PhoneInput {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .dashbord-content {
+    text-align: center;
+  }
+
+  .passenger-width {
+    width: 100% !important;
+  }
+
+  .input-parent {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  .input-content select {
+    width: 100% !important;
+    display: block;
+  }
+
+  .input-content input {
+    width: 100% !important;
+    display: block;
+  }
+
+  .checkBox input {
+    width: 15px !important;
+    display: inline !important;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .passenger-width .PhoneInput {
+    display: flex;
+    align-items: center;
+    width: 80% !important;
+  }
+
+  .input-child {
+    width: 50% !important;
+  }
+
+  .input-content select {
+    width: 80% !important;
+    display: block;
+  }
+
+  .input-content input {
+    width: 78% !important;
+    display: block;
+  }
+
+  .checkBox-parent {
+    margin: 30px 0px;
+  }
+
+  .checkBox input {
+    width: 15px !important;
+    display: inline !important;
+    margin-right: 10px;
+  }
+
+  .checkBox label {
+    font-size: 14px;
+  }
+}

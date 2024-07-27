@@ -1,0 +1,78 @@
+.reporth5 {
+  background: rgba(0, 53, 102, 0.5);
+}
+.reporth5 h5 {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: #fff;
+  padding: 10px 0px;
+}
+.reporth5 span {
+  padding: 0px 20px;
+}
+.geneal-ledger {
+  display: flex;
+  gap: 80px;
+}
+.geneal-ledger-parent {
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  padding: 0px 1px;
+}
+.geneal-ledger-parent h3 {
+  color: #dc143c;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: underline;
+  padding: 20px 0px;
+}
+.geneal-ledger label {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 15px;
+}
+.geneal-ledger input {
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 10px 0px;
+  width: 180px;
+  color: #bebebf;
+}
+.geneal-ledger-btn {
+  padding: 20px 0px;
+}
+.geneal-ledger-btn button {
+  background-color: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 10px 25px;
+  margin: 20px 0px;
+}
+
+.geneal-ledger-parent h5 {
+  background: #809ab3;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 13px;
+  padding: 12px;
+}
+
+/* .ticketVendor input[type="date"] {
+  position: relative;
+}
+
+.ticketVendor input[type="date"]::-webkit-calendar-picker-indicator {
+  background-position: right;
+  background-size: auto;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+
+  top: 0;
+  width: 100%;
+  height: 100%;
+} */

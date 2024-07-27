@@ -1,0 +1,295 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  /* background-color: var(--home-bg); */
+  background: var(--home-bg);
+  box-sizing: border-box !important;
+  /* position: relative; */
+}
+
+.image-body {
+  position: relative;
+  height: 100vh;
+}
+.image-1 {
+  position: absolute;
+  z-index: -1;
+  top: 30vh;
+  right: 0%;
+}
+.image-2 {
+  position: absolute;
+  z-index: -1;
+  top: 70vh;
+  right: 0;
+}
+.image-3 {
+  position: absolute;
+  z-index: -1;
+  top: 170%;
+  right: 5%;
+}
+.image-4 {
+  position: absolute;
+  z-index: -1;
+  left: 5%;
+  top: 2%;
+}
+
+.image-4-1 {
+  position: absolute;
+  z-index: -1;
+  left: 5%;
+  top: 210%;
+}
+
+.image-5 {
+  position: absolute;
+  z-index: -1;
+  top: 70vh;
+  right: 5%;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.image-7 {
+  position: absolute;
+  z-index: -1;
+  top: -2%;
+  left: 40%;
+}
+.image-7-1 {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 5%;
+}
+.image-7-2 {
+  position: absolute;
+  z-index: -1;
+  top: 55%;
+  left: 40%;
+  transform: rotate(90deg);
+}
+.image-7-3 {
+  position: absolute;
+  z-index: -1;
+  top: 110%;
+  right: 10%;
+  transform: rotate(90deg);
+}
+.image-7-4 {
+  position: absolute;
+  z-index: -1;
+  top: 150%;
+  left: 10%;
+  transform: rotate(90deg);
+}
+
+.image-8 {
+  position: absolute;
+  z-index: -1;
+  top: 0%;
+  right: 2%;
+}
+.image-8-1 {
+  position: absolute;
+  z-index: -1;
+  top: 230vh;
+  right: 2%;
+}
+.image-8-2 {
+  position: absolute;
+  z-index: -1;
+  top: 90vh;
+  left: 4%;
+}
+
+* {
+  font-family: "Poppins", sans-serif !important;
+  box-sizing: border-box !important;
+}
+
+:root {
+  /* Ladies Used Color start */
+  --primary-color: #bc6277;
+  --secondary-color: #fe99a6;
+  /* HompageColor */
+  --home-bg: #fff4f4;
+  /* --home-bg-gradient: linear-gradient(149.69deg, #FFE9E9 19.4%, #FFF5F5 83.24%); */
+  --text-color-b: #252733;
+  --text-black: #222222;
+  --text-mateBlack: #3c4258;
+  --text-color-g: #7d7b7b;
+  --img-bg: #f5dfdf;
+  --tab-text: #3c4258;
+  --slider-text: #d7a2af;
+  --white: #ffffff;
+  --client-say-text: #d8a3af;
+  --green-text: #1a9c05;
+  --gray-text-color: #c7c7c7;
+  --border-color: #dedede;
+  --transit-color: #f1eaf0;
+  --input-bgcolor: #f4f4f4;
+  --input-text-color: #b6b6cc;
+  --gtext-color: #837fb1;
+  --days-color: #584660;
+  --text-color: #525371;
+  --table-head: rgba(254, 153, 166, 0.4);
+  /* Ladies Used Color End */
+
+  --primary-rgb: 255, 168, 77;
+  --secondary-rgb: 37, 100, 184;
+  --third-rgb: 34, 34, 34;
+
+  --red: #ff0000;
+  --gray: #c7c7c7;
+  --white-rgb: 255, 255, 255;
+  --black: #000;
+  --sabre: #ff0000;
+  /* --sabre: #ffffff; */
+  /* --galileo: #0b8634; */
+  --galileo: #ffffff;
+  --flyhub: #4169e1;
+  /* --flyhub: #ffffff; */
+  --mateBlack: #222222;
+  --tomato-color: #ff4a4a;
+  --green-color: #219e35;
+  --remove-color: #ff2f2f;
+  --file-color: #ffa84d;
+  --refundalbe-color: #2564b8;
+  --deposit: #177c33;
+  --purchase: #ed1c24;
+  --loan: #50678c;
+  --void: #4f86e0;
+  --refund: #e07f4f;
+  --reissue: #c73e3e;
+  --return: orange;
+  --lightBlue: #d3e0f0;
+
+  /* Color Code for After Search starts */
+
+  --details-text-color: #d3e0f0;
+  --dark-text-color: #252733;
+  --bg-color: #305b7d;
+  --blue-text-color: #1c75bc;
+  --table-hover: #d1e9ff;
+  --table-th: #1d234f;
+
+  /* Color Code for After Search End */
+}
+
+.p {
+  font-family: "Poppins", sans-serif !important;
+}
+
+code {
+  font-family: "Poppins", sans-serif !important;
+}
+
+button.shine-effect {
+  overflow: hidden;
+}
+
+button.shine-effect::after {
+  content: "";
+  width: 30px;
+  height: 200px;
+  position: absolute;
+  left: -20px;
+  top: 0;
+  margin-top: -20px;
+  background: var(--secondary-color);
+  opacity: 0.6;
+  filter: blur(20px);
+  animation: shine 4s infinite;
+  animation-delay: 0s;
+  transform-origin: top;
+}
+@keyframes shine {
+  from {
+    transform: translate(0) rotate(45deg);
+  }
+  to {
+    transform: translateX(120vh) rotate(45deg);
+  }
+}
+.customPlaceholder::placeholder {
+  color: var(--secondary-color) !important ;
+}
+
+.tour-calendar {
+  position: absolute;
+  top: 100%;
+  /* left: 25px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.new-return-date-range .rdrDateDisplayWrapper,
+.new-return-date-mobile .rdrDateDisplayWrapper {
+  display: none;
+}
+
+.image-auto-resize img {
+  width: 100%;
+  height: auto;
+}
+
+.discount {
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  background-color: #837fb1;
+  width: 67px;
+  height: 67px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.discountText {
+  rotate: -35deg !important;
+  font-size: 16px;
+  position: relative;
+  left: 5px;
+  top: -4px;
+  color: "#fff";
+}
+
+a {
+  text-decoration: none;
+}
+
+.slick-prev:before {
+  content: "←";
+  color: red !important;
+  opacity: 0.5 !important;
+  font-size: 24px !important;
+  z-index: 999 !important;
+}
+
+.slick-next:before {
+  content: "→";
+  color: red !important;
+  opacity: 0.5 !important;
+  font-size: 24px !important;
+}
+
+.slick-next {
+  /* right: 0 !important; */
+}
+.slick-prev {
+  /* left: 0 !important; */
+  /* z-index: 999 !important; */
+}
+.tours-box {
+  position: relative;
+}
+.tours-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.tours-date {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}

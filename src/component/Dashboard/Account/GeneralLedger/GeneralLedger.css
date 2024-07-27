@@ -1,0 +1,67 @@
+.general-ledger h3 {
+  color: #e02c50;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.select-search {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.select-search h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--primary-color);
+  padding: 10px 0px;
+}
+
+.select-search select {
+  color: #fff;
+  background-color: var(--primary-color);
+}
+
+.select-search label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--primary-color) !important;
+}
+
+.select-search input {
+  padding: 6px 5px;
+  border-radius: none;
+  border: 1px solid var(--primary-color);
+}
+
+/* .payment-border {
+  
+  padding: 100px;
+}
+.reset-boder {
+  border: 1px solid #ff6464 !important;
+}
+.general-ledger select {
+  padding: 1px 5px;
+}
+.general-ledger Typography {
+  padding: 1px 5px;
+}
+.general-ledger {
+  color: var(--primary-color);
+}
+.general-ledger td {
+  color: black;
+} */
+
+@media all and (max-width: 768px) and (min-width: 429px) {
+  .general-ledger {
+    margin-top: 60px;
+  }
+}

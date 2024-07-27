@@ -1,0 +1,22 @@
+.boxParent {
+  display: flex;
+  position: ab;
+  overflow: hidden;
+}
+
+.box1 {
+  width: 300px;
+  height: 100vh;
+  background-color: green;
+  position: fixed;
+  overflow: hidden !important;
+}
+
+.box2 {
+  width: 500px;
+  height: 100vh;
+  background-color: orange;
+  overflow: hidden !important;
+}
+
+/*  modify search style here */

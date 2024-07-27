@@ -1,0 +1,39 @@
+.input-child-0 input {
+  width: 100%;
+  padding: 0px 6px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  height: 38px;
+}
+.input-account-0 select{
+  width: 100%;
+  padding: 0px 6px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  height: 38px;
+}
+.input-child-file0 input {
+  width: 100%;
+}
+.account-info-date input[type="date"]{
+  position: relative;
+}
+.account-info-date input[type="date"]::-webkit-calendar-picker-indicator {
+  background-position: right;
+  background-size: auto;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* @media all and (max-width: 768px) and (min-width: 429px) {
+  .depositEntry1 {
+    margin-top: 60px;
+  }
+} */

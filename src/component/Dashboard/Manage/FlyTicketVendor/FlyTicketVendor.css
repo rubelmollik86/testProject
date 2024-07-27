@@ -1,0 +1,54 @@
+.ticketVendor-parent {
+  padding: 0px 10px;
+}
+
+.ticketVendor-parent h3 {
+  padding: 0px 0px;
+  padding-bottom: 20px;
+  font-family: "Poppins";
+  font-size: 20px;
+  color: #e02c50;
+}
+
+.ticketVendor select {
+  width: 100% !important;
+  height: 42px;
+}
+
+.ticketVendor input {
+  width: 100%;
+  padding: 0px 6px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  height: 42px;
+}
+.ticketVendor ::placeholder {
+  color: var(--primary-color);
+  opacity: 1;
+  font-size: 12px;
+}
+
+.ticketVendorbtn {
+  margin-top: 30px;
+}
+
+.ticketVendorbtn button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 7px 35px;
+  cursor: pointer;
+}
+
+@media all and (max-width: 428px) and (min-width: 320px) {
+  .ticketVendor-parent h3 {
+    padding: 0px 0px;
+    padding-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 768px) and (min-width: 429px) {
+  .ticketVendor-parent {
+    margin-top: 50px;
+  }
+}

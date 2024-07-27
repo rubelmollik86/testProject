@@ -1,0 +1,262 @@
+/* .deposit-position{
+  position: relative;
+
+} */
+
+.PrivateTabIndicator-colorSecondary {
+  background: transparent !important;
+}
+
+.afterSelect {
+  width: 100% !important;
+  background-color: #1a4a77;
+}
+.depositParent .MuiTabPanel-root {
+  padding: 0px;
+  padding-top: 20px;
+}
+
+/* .depositParent1 {
+  padding: 0px 15px;
+} */
+
+.depositTab {
+  margin: 50px 0px;
+}
+
+.depositTabParent .MuiTabs-flexContainer {
+  justify-content: flex-start;
+  gap: 20px;
+  /* padding-top: 50px; */
+}
+.depositTab .MuiTab-root {
+  min-height: 40px !important;
+}
+
+.depositTab .MuiTab-textColorInherit.Mui-selected {
+  opacity: 1;
+  background-color: #1a4a77 !important;
+  color: #fff;
+  border-radius: 0px;
+}
+
+.depositTab .PrivateTabIndicator-colorSecondary-7 {
+  /* background-color: var(--primary-color); */
+  background-color: #fff;
+}
+
+.depositTab button {
+  border: 1px solid var(--primary-color) !important;
+  color: var(--primary-color);
+  opacity: 1;
+}
+
+.depositHeader h3 {
+  margin-top: 50px;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 21px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+.depo-book-btn button {
+  border-radius: 0px;
+  padding: 8px 30px;
+  color: #fff;
+}
+
+/* .deposite-input-content label {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 14px;
+} */
+
+/* .deposite-input-content input,
+select {
+  width: 85% !important;
+  padding: 7px 6px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+} */
+
+/* .deposite-input-content select {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 70% !important;
+  margin-top: 25px;
+  height: 35px;
+} */
+.depositParent1 button.Mui-selected {
+  font-weight: bold;
+  border-bottom: none !important;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.deposit-input-file input {
+  border-bottom: none;
+  background-color: red;
+}
+
+.deposite-file-upload input {
+  background-color: #ff6464 !important;
+  color: #fff;
+  padding: 9px 8px;
+  position: relative;
+  /* top: -11px; */
+  border: none;
+}
+
+.customFileType::-webkit-file-upload-button {
+  background: #ff6464 !important;
+  border: none;
+  color: #ff6464;
+  text-align: center;
+  display: none;
+}
+
+/* .deposite-file-upload input[type="file" i] {
+  background-color: #ff6464 !important;
+  cursor: pointer;
+  align-items: baseline;
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: pre;
+  text-align: start !important;
+  padding: initial;
+  border: initial;
+  overflow: hidden !important;
+} */
+
+/* .deposite-tables  {
+  overflow-x: scroll !important;
+} */
+/* .deposite-table  {
+  border-collapse: collapse;
+  width: 100%;
+} */
+
+.deposite-table th {
+  background-color: #1a4a77;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+  color: #fff !important;
+  border: 1px solid #dedede !important;
+}
+
+.deposite-table td {
+  padding: 15px 6px;
+  background: #ffffff;
+  border: 1px solid #dedede !important;
+  color: black;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* tr:nth-child(even) {background-color: #f2f2f2;} */
+.deposite-table tr td a {
+  color: var(--primary-color);
+}
+
+#status span {
+  /* background-color: #34931c; */
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#bankAccountStatus span {
+  background-color: #177c33;
+  padding: 8px 22px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.depoSelect select {
+  width: 100% !important;
+}
+
+/* search section  */
+
+.depositSearch-section {
+  padding: 30px 0px;
+}
+
+/*  media query */
+@media (min-width: 319px) and (max-width: 321px) {
+  .depositParent1 {
+    padding: 0px 0px;
+  }
+  .deposite-input-content input,
+  select {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 374px) and (max-width: 376px) {
+  .deposite-input-content input,
+  select {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 424px) and (max-width: 426px) {
+  .deposite-input-content input,
+  select {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 769px) {
+  .deposite-input-content input,
+  select {
+    width: 100% !important;
+  }
+  #afterSelect {
+    margin-top: 10px;
+  }
+}
+
+.deposit-card {
+  display: none;
+}
+
+.deposit-type span {
+  font-size: 12px !important;
+}
+
+.deposit-card-details h5 {
+  font-size: 14px !important;
+  font-family: "poppins";
+}
+
+.deposit-card-details h5 span {
+  font-size: 14px !important;
+}
+
+/* media query  */
+
+/* @media all and (max-width: 428px) and (min-width: 320px) {
+  .deposit-dataTable {
+    display: none;
+  }
+  .deposit-card {
+    display: block;
+  }
+} */
+
+@media all and (max-width: 768px) and (min-width: 429px) {
+  /* .deposit-dataTable {
+    display: none;
+  } */
+  .deposit-card {
+    display: block;
+  }
+}
+
+@media all and (max-width: 428px) and (min-width: 320px) {
+  .depositSearch-section {
+    padding: 0px 0px;
+  }
+}

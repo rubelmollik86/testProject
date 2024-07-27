@@ -1,0 +1,45 @@
+.terms-condition-heading h2 {
+  color: #fff;
+  font-size: 55px;
+  font-family: "poppins";
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.terms-body h4 {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-family: "poppins";
+  font-weight: 400;
+  padding: 15px 0px;
+}
+
+.terms-body p {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-family: "poppins";
+  font-weight: 300;
+  text-align: justify;
+  padding: 5px 0px;
+}
+
+.terms-body li {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-family: "poppins";
+  font-weight: 300;
+  text-align: justify;
+  padding: 2px 0px;
+}
+
+.terms-body span {
+  color: var(--tab-text);
+  font-family: "poppins";
+  font-weight: 500;
+}
+
+@media all and (max-width: 428px) and (min-width: 320px) {
+  .terms-condition-heading h2 {
+    font-size: 26px;
+  }
+}

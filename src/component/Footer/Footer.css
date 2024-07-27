@@ -1,0 +1,207 @@
+.footer-bg {
+  /* background: #ecf0fb; */
+  
+  margin-top: 100px;
+  padding: 50px 0px;
+}
+
+.logo img {
+  width: 100px;
+  height: 40px;
+}
+
+.icon img {
+  width: 20px;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+
+.company-content h5 {
+  margin-top: 0px;
+  color: #202020;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 27px;
+  margin-bottom: 15px;
+}
+
+.company-content p {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #636363;
+}
+
+.iata {
+  text-align: center;
+}
+
+.iata img {
+  width: 85px;
+  height: 45px;
+}
+
+.taab {
+  text-align: center;
+}
+
+.taab img {
+  width: 86px;
+  height: 31px;
+}
+
+.biman-img {
+  text-align: center;
+}
+
+.biman-img img {
+  width: 140px;
+}
+
+.custom-footer-btn button {
+  background: var(--primary-color);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.custom-footer-btn button:hover {
+  background: var(--primary-color);
+}
+
+.payment-img {
+  padding: 30px 0px;
+}
+
+.payment-img {
+  text-align: center;
+}
+
+.payment-img img {
+  width: 90%;
+}
+
+.reserve-right p {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(67, 67, 67, 0.95);
+  margin: 0px;
+  padding-bottom: 20px;
+}
+.companay-centent-child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  gap: 5px;
+}
+
+.message-input input {
+  padding: 10px 10px;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 425px) {
+  .footer-bg {
+    background: #ecf0fb;
+    margin-top: 50px;
+    padding: 50px 0px;
+  }
+
+  .logo img {
+    width: 90px;
+    height: 35px;
+  }
+
+  .icon img {
+    width: 20px;
+  }
+
+  .company-content h5 {
+    font-size: 15px;
+  }
+
+  .company-content p {
+    font-size: 14px;
+  }
+
+  .iata img {
+    width: 60px;
+  }
+
+  .taab img {
+    width: 60px;
+    height: 30px;
+  }
+
+  .biman-img img {
+    width: 120px;
+  }
+
+  .company-content h5 {
+    text-align: left;
+  }
+
+  .reserve-right p {
+    font-size: 13px;
+  }
+}
+
+/* media query for tab */
+
+@media only screen and (max-width: 768px) {
+  .payment-img {
+    padding: 30px 0px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .round-trip {
+    width: 88%;
+  }
+
+  .banner-form-content label {
+    font-size: 12px;
+  }
+
+  .card-content h3 {
+    font-size: 17px;
+  }
+
+  .logo img {
+    width: 80px;
+    height: 38px;
+  }
+
+  .icon img {
+    width: 20px;
+  }
+
+  .company-content h5 {
+    font-size: 15px;
+  }
+
+  .company-content p {
+    font-size: 14px;
+  }
+
+  .iata img {
+    width: 60px;
+  }
+
+  .taab img {
+    width: 60px;
+    height: 38px;
+  }
+}

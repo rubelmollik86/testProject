@@ -1,0 +1,11 @@
+.home-search-box-2 .MuiTabs-root button {
+  background-color: transparent;
+  color: var(--primary-color);
+  opacity: 1 !important;
+}
+
+.home-search-box-2 button.Mui-selected {
+  border: 2px solid #fff;
+  color: var(--primary-color);
+}
+

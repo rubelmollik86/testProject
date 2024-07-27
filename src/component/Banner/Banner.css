@@ -1,0 +1,256 @@
+.banner_content {
+  padding: 207px 50px;
+}
+
+.banner_content h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.banner_content p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ccc;
+}
+
+.banner_btn button {
+  background: #ffff00;
+  color: black;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.swiper {
+  z-index: -1 !important;
+}
+
+.banner_btn button:hover {
+  background: #ffff00;
+}
+
+.banner-form {
+  background-color: #fff;
+  width: 80%;
+  margin: auto;
+  background: #ffff;
+  margin-top: -90px;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.round-trip {
+  background: var(--primary-color);
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 0px;
+  border-radius: 20px;
+}
+
+.round-trip h4 {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  padding: 0px 50px;
+}
+
+.round-trip span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  background: #ffff00;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.banner-form-parent {
+  margin: 40px 0px;
+}
+
+.banner-form-content label {
+  color: var(--primary-color);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.fight-btn {
+  text-align: center;
+  margin-top: -26px;
+}
+
+.fight-btn button {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border-radius: 30px;
+}
+
+.fight-btn button:hover {
+  background-color: var(--primary-color);
+}
+
+.banner-dfex {
+  display: flex;
+  justify-content: start !important;
+}
+
+#fight-btn button:hover {
+  background-color: var(--primary-color) !important;
+}
+
+#fight-btn span {
+  padding: 5px 10px;
+  font-family: "poppins";
+}
+
+/* media query for mobile device  */
+
+@media only screen and (max-width: 428px) {
+  .banner_content {
+    padding: 10px 15px;
+  }
+
+  .banner_content h1 {
+    font-size: 17px;
+    margin: 0px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .banner_content p {
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  .banner_btn {
+    text-align: center;
+  }
+
+  .banner_btn button {
+    font-size: 12px;
+  }
+
+  /*  banner form start */
+  .banner-form {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 0px;
+  }
+
+  .round-trip {
+    background: var(--primary-color);
+    width: 95%;
+    margin: auto;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 6px 0px;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+
+  .round-trip h4 {
+    color: #ffffff;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    margin: 0;
+    padding: 0px 20px;
+    margin-top: 3px;
+  }
+
+  .round-trip span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    background: #ffff00;
+    padding: 2px 9px;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+
+  .banner-form-parent {
+    margin: 40px 20px;
+  }
+
+  .banner-form-content label {
+    display: block;
+  }
+
+  .fight-btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .fight-btn button {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 428px) {
+  .round-trip span {
+    padding: 4px 9px;
+    position: relative;
+    top: -2px;
+  }
+
+  #customInput {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #customInput {
+    width: 94% !important;
+  }
+  .banner_content h1 {
+    font-size: 40px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 755px) {
+  .round-trip h4 {
+    font-size: 15px;
+  }
+  #customInput {
+    width: 94% !important;
+  }
+  .banner_content h1 {
+    font-size: 40px !important;
+  }
+}
+
+/* media query for tab */
+
+@media only screen and (max-width: 768px) {
+  .round-trip {
+    width: 88%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .banner-dfex {
+    display: flex;
+    justify-content: center !important;
+  }
+  .banner_content h1 {
+    font-size: 50px !important;
+  }
+}

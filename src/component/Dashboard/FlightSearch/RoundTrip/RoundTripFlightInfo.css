@@ -1,0 +1,139 @@
+.round-segment-stop {
+  width: 20px;
+  height: 5px;
+  background-color: var(--gray-text-color);
+  margin-top: -1.5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* -----------segment 1---- */
+.round-segment-line0 {
+  position: relative;
+  height: 2px;
+  width: 100%;
+  background-color: var(--gray-text-color);
+  margin-top: 10px;
+}
+.round-segment-flight01 {
+  margin-top: -14px;
+  position: absolute;
+  animation: rdsegmentone ease 5s infinite;
+  color: var(--primary-color);
+}
+@keyframes rdsegmentone {
+  0% {
+    left: 0%;
+    top: 0px;
+    opacity: 1;
+  }
+
+  98% {
+    opacity: 0.8;
+  }
+  100% {
+    left: 95%;
+    top: 0px;
+    opacity: 0;
+  }
+}
+/* -----------segment 2---- */
+.round-segment-flight02 {
+  margin-top: -14px;
+  position: absolute;
+  animation: rdsegmenttwo ease 5s infinite;
+  color: var(--primary-color);
+}
+@keyframes rdsegmenttwo {
+  0% {
+    left: 0%;
+    top: 0px;
+    opacity: 1;
+  }
+
+  50% {
+    left: 47%;
+    opacity: 1;
+  }
+  98% {
+    opacity: 0.8;
+  }
+  100% {
+    left: 95%;
+    top: 0px;
+    opacity: 0;
+  }
+}
+
+/* -----------segment 3---- */
+.round-segment-circle {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+.circle-0 {
+  margin-top: -9px;
+}
+
+/* .round-segment03 {
+    position: relative;
+    height: 2px;
+    width: 100%;
+    background-color: var(--gray-text-color);
+    margin-top: 10px;
+  } */
+.img-border-8 {
+  border: 2px solid #dedede;
+  border-radius: 50%;
+}
+.img-border-sabre {
+  border: 2px solid #ff0000;
+  border-radius: 50%;
+  margin-inline: 10px;
+}
+.img-border-galileo {
+  border: 2px solid #0b8634;
+  border-radius: 50%;
+  margin-inline: 10px;
+}
+.img-border-flyhub {
+  border: 2px solid #4169e1;
+  border-radius: 50%;
+  margin-inline: 10px;
+}
+.img-border-flyHub {
+  border: 2px solid #4169e1;
+  border-radius: 50%;
+  margin-inline: 10px;
+}
+
+
+.round-segment-flight03 {
+  margin-top: -14px;
+  position: absolute;
+  animation: rdsegmentthree ease 5s infinite;
+  color: var(--primary-color);
+}
+@keyframes rdsegmentthree {
+  0% {
+    left: 0%;
+    top: 0px;
+    opacity: 1;
+  }
+  33% {
+    left: 32%;
+    opacity: 1;
+  }
+  66% {
+    left: 65%;
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    left: 95%;
+    top: 0px;
+    opacity: 0;
+  }
+}

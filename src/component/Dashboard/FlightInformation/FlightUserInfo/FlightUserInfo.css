@@ -1,0 +1,215 @@
+.right-overflow1 span.form-validation-span {
+  display: none;
+}
+
+.right-overflow1 input:invalid[focused="true"] {
+  border: 1px solid red;
+}
+
+.right-overflow1 input:invalid[focused="true"] ~ span.form-validation-span {
+  display: block;
+}
+
+#select-input-info select {
+  width: 100% !important;
+  padding: 7px 10px;
+}
+
+/* todo:phoneInput */
+.right-overflow1 .react-tel-input {
+  width: 100% !important;
+  height: 50%;
+  border: none;
+  border-radius: 2px;
+  color: var(--primary-color) !important;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  background-color: var(--input-bgcolor);
+}
+.right-overflow1 .react-tel-input .form-control {
+  background-color: var(--input-bgcolor);
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+.right-overflow1 .PhoneInput input {
+  /* background-color: transparent; */
+  background-color: var(--input-bgcolor);
+  border: none;
+}
+/* !end */
+
+/* todo: style for label tag */
+.right-overflow1 label {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--primary-color);
+  padding-bottom: 15px;
+}
+
+/* todo:country-dropdown */
+.right-overflow1 .country-select {
+  width: 100%;
+}
+.flight-h4 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 50px;
+  color: var(--primary-color);
+}
+
+.adult-h4 h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  background: #dc143c;
+  text-align: center;
+  padding: 8px 0px;
+  border-radius: 0px 20px 0px 20px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.adult-info select.user-info-select {
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  color: var(--primary-color) !important;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  background-color: var(--input-bgcolor);
+}
+
+.adult-info input {
+  width: 100% !important;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  color: var(--primary-color) !important;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  background-color: var(--input-bgcolor);
+}
+
+.adult-info .span-input {
+  width: 100% !important;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  color: var(--primary-color) !important;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+}
+.user-info-calendar {
+  position: absolute;
+  top: 100%;
+  left: 16px;
+  border: none;
+  border-radius: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  z-index: 10;
+}
+.user-info-calendar span {
+  font-size: 14px;
+  font-weight: bold;
+}
+.user-info-calendar span.rdrWeekDay {
+  color: var(--primary-color);
+}
+.user-info-calendar .rdrMonthName {
+  color: var(--primary-color);
+}
+
+.user-info-calendar .rdrDay {
+  box-sizing: inherit;
+  width: calc(100% /9);
+  position: relative;
+  font: inherit;
+  cursor: pointer;
+}
+.user-info-calendar .rdrMonth{
+  width: 22.667em;
+}
+
+.adult-info input[type="date"] {
+  position: relative;
+}
+.adult-info input[type="date"]::-webkit-calendar-picker-indicator {
+  background-position: right;
+  background-size: auto;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.adult-info ::-webkit-input-placeholder {
+  color: var(--input-text-color) !important;
+}
+
+.checkBox {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.checkBox input {
+  color: var(--primary-color) !important;
+}
+
+.checkBox label {
+  color: var(--input-text-color) !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#vehicle1 {
+  accent-color: var(--primary-color) !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.conatct-detail {
+  padding: 10px 0px;
+}
+
+.conatct-detail p {
+  color: var(--secondary-color);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.booking-btn {
+  padding: 20px 0px;
+}
+
+.booking-btn button {
+  padding: 8px 25px;
+  background: var(--primary-color);
+  border-radius: 2px;
+  border: none;
+  color: #fff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+}

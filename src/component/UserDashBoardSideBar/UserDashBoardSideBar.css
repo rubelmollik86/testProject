@@ -1,0 +1,21 @@
+.sideBar-user a{
+  color:#fff;
+  text-decoration: none;
+}
+/* .sideBar-user .active{
+  background-color:#222222;
+  width: 90%;
+  padding-right: 0 !important;
+} */
+.dash-sub-menu span{
+  font-size: 14px !important;
+}
+.dash-sub-menu .active{
+  background-color:#222222;
+  text-decoration: none;
+  width: 80%;
+  border-radius: 0 5px 5px 0;
+}
+.dash-sub-menu{
+  margin-bottom: 10px;
+}

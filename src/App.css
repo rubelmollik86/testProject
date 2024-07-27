@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.hold-btn {
+  padding: 5px;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.issue-in-processing-btn {
+  padding: 5px;
+  background-color: #dc143c;
+  color: #fff;
+}
+.issue-rejected-btn {
+  padding: 5px;
+  background-color: #aaac2b;
+  color: #fff;
+}
+.ticketed-btn {
+  padding: 5px;
+  background-color: #089326;
+  color: #fff;
+}
+
+.void-in-processing-btn {
+  padding: 5px;
+  background-color: #dc14a4;
+  color: #fff;
+}
+.voided-btn {
+  padding: 5px;
+  background-color: #21a412;
+  color: #fff;
+}
+.void-rejected-btn {
+  padding: 5px;
+  background-color: #21a412;
+  color: #fff;
+}
+.reissue-in-processing-btn {
+  padding: 5px;
+  background-color: #9747ff;
+  color: #fff;
+}
+.reissued-btn {
+  padding: 5px;
+  background-color: #ff6b00;
+  color: #fff;
+}
+.reissue-rejected-btn {
+  padding: 5px;
+  background-color: #ff6b00;
+  color: #fff;
+}
+.refund-in-processing-btn {
+  padding: 5px;
+  background-color: #8a5138;
+  color: #fff;
+}
+
+.refunded-btn {
+  padding: 5px;
+  background-color: #ff6b00;
+  color: #fff;
+}
+.refund-rejected-btn {
+  padding: 5px;
+  background-color: #ff6b00;
+  color: #fff;
+}
+.return-btn {
+  padding: 5px;
+  background-color: #ff6b00;
+  color: #fff;
+}
+.cancelled-btn {
+  padding: 5px;
+  background-color: #70a5d8;
+  color: #fff;
+}
+.sabre-border{
+  border: 2px solid #dc143c;
+  border-radius: 50%;
+
+}
+.flyhub-border{
+  /* border: 2px solid var(--primary-color); */
+  border-radius: 50%;
+}

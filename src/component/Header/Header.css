@@ -1,0 +1,20 @@
+.nav-bar-active a {
+  font-weight: 400;
+  font-size: 15px;
+  text-decoration: none;
+  color: var(--text-color-b);
+}
+
+.nav-bar-active .active {
+  color: var(--secondary-color);
+}
+
+.nav-bar-active .active::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-left: 3px;
+  background-color: var(--secondary-color);
+}
